@@ -59,6 +59,14 @@ DATABASES = {
 		'CLIENT': {
 			'host': 'mongodb://localhost:27017',
 		},
+	},
+	'test': {
+		'ENGINE': 'djongo',
+		'NAME': 'octofit_db_test',
+		'ENFORCE_SCHEMA': False,
+		'CLIENT': {
+			'host': 'mongodb://localhost:27017',
+		},
 	}
 }
 CORS_ALLOW_ALL_ORIGINS = True
