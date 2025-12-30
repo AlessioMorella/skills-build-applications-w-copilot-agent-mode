@@ -53,7 +53,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'octofit_tracker.wsgi.application'
 DATABASES = {
 	'default': {
-		'ENGINE': 'djungo',
+		'ENGINE': 'djongo',
 		'NAME': 'octofit_db',
 		'ENFORCE_SCHEMA': False,
 		'CLIENT': {
@@ -61,7 +61,7 @@ DATABASES = {
 		},
 	},
 	'test': {
-		'ENGINE': 'djungo',
+		'ENGINE': 'djongo',
 		'NAME': 'octofit_db_test',
 		'ENFORCE_SCHEMA': False,
 		'CLIENT': {
